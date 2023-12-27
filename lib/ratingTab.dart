@@ -30,12 +30,7 @@ class _RatingTabPageState extends State<RatingTabPage> {
 
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.white),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
+
         title: Text(
           'Ratings',
           style: TextStyle(color: Colors.white),
